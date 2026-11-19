@@ -3,6 +3,9 @@
 **Name:** J K N S Jayakody
 **Index No:** 34954
 
+**Live app:** https://devops-project-34954.onrender.com
+**Docker Hub image:** `nethumij/flask-app:v1`
+
 A Flask app taken through the full DevOps pipeline: source control → CI (GitHub Actions) → Docker → Kubernetes (Minikube) → continuous deployment (Render).
 
 ## Project structure
