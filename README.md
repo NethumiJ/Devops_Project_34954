@@ -12,7 +12,7 @@ devops-practical/
 ├── app.py                     # Flask app (reads PORT env var, defaults to 5000)
 ├── test_app.py                # PyTest quality gate
 ├── requirements.txt           # flask==3.0.0, pytest==7.4.0
-├── Dockerfile                 # python:3.9-slim image
+├── Dockerfile                 # python:3.12-slim image
 ├── .github/workflows/ci.yml   # CI pipeline: install deps + run pytest on push to main
 └── k8s/
     ├── deployment.yaml        # 2 replicas of the flask container
@@ -27,7 +27,7 @@ python app.py          # http://localhost:5000
 ```
 
 ## Phase 2 – CI
-Every push to `main` runs `.github/workflows/ci.yml` (checkout → Python 3.9 → install → pytest). See the **Actions** tab.
+Every push to `main` runs `.github/workflows/ci.yml` (checkout → Python 3.12 → install → pytest). See the **Actions** tab.
 
 ## Phase 3 – Docker
 ```bash
