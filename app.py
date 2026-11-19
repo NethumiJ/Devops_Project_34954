@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello, DevOps World! We are LIVE on Render! - J K N S Jayakody (34954)"
+    return "CI/CD and Docker Pipeline is a massive success! V2 - J K N S Jayakody (34954)"
 
 
 if __name__ == '__main__':
